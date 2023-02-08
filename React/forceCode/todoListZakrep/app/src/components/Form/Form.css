@@ -1,0 +1,16 @@
+.form {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form__input {
+  width: 100%;
+  font-size: 20px;
+  border: 3px solid #534d56;
+  border-radius: 4px;
+  outline: none;
+  background-color: #f8f1ff;
+  font-size: 20px;
+}

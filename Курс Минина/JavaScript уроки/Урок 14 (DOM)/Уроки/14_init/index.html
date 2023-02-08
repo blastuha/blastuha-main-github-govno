@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css" />
+  <title>Работа с DOM</title>
+</head>
+<body>
+  <div class="main-navigation">
+
+    <a href="#" class="main-navigation__button-item" data-button-id="1">
+      Задачи на сегодня
+    </a>
+
+    <a href="#" class="main-navigation__button-item" data-button-id="2" zhopa="1">
+      Задачи на Эту Неделю
+    </a>
+
+    <a href="#" class="main-navigation__button-item" data-button-id="3">
+      Задачи на Потом
+    </a>
+
+  </div>
+
+  <div id="tasks">
+    <div class="tasks__wrapper">
+      <form class="create-task-block">
+        <input
+          name="taskName"
+          class="create-task-block__input default-text-input"
+          type="text"
+          placeholder="Создайте новую задачу"
+          value="Посмотреть урок по JavaScript"
+        >
+        <button
+          type="submit"
+          class="create-task-block__button default-button"
+          data-button-id="1"
+        >
+          Создать
+        </button>
+        <button
+        type="submit"
+        class="create-task-block__button default-button puk"
+        data-button-id="2"
+      >
+        Тест кнопка
+      </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Urok 10 -->
+
+  <form class="form">FORM
+    <div class="div">DIV
+      <p class="p">PUSHINGP</p>
+    </div>
+  </form>
+
+
+
+  <!-- <script src="urok1-2.js"></script> -->
+  <!-- <script src="urok3.js"></script> -->
+  <!-- <script src="urok4.js"></script> -->
+  <!-- <script src="urok5-6-7.js"></script> -->
+  <!-- <script src="urok9.js"></script> -->
+  <!-- <script src="urok10.js"></script> -->
+  <script src="urok11.js"></script>
+</body>
+</html>

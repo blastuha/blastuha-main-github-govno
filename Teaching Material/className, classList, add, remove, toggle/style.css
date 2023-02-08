@@ -1,0 +1,32 @@
+.ol {
+  font-size: 26px;
+}
+
+.ol.active {
+  color: red;
+}
+
+li.active {
+  color: green;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: antiquewhite;
+}
+
+.inner_box {
+  width: 50px;
+  height:  50px;
+  background-color: azure;
+}
+
+.box.border {
+  border: 2px solid black;
+}
+
+.box.red {
+  background-color: red;
+  transition: background-color .9s ease-in-out;
+}
